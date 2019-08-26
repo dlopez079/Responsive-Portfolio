@@ -188,3 +188,14 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 24px;
 }
+
+/* 
+* Add media for 980px: COMPLETED
+* Change containers width to 600px when the browser minimized to 980px: COMPLETED  */
+@media screen and (max-width: 980px) {
+    
+    /* The container's width will be 600px */
+    .container {
+        width: 600px;
+    }
+
