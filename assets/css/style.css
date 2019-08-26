@@ -269,9 +269,12 @@
     * The container's width will be 600px: COMPLETED 
      */
     .container {
-        width: 600px;
+        width: 500px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
+   /* Add width, margin, height and text-align: COMPLETED */
     nav {
         width: 100%;
         margin: 15px;
@@ -284,4 +287,5 @@
         position: relative;
     }
 
+    
 }
