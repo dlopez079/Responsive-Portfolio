@@ -28,7 +28,7 @@
        text-align: center;
        color: Grey;
        font-family: Georgia, 'Times New Roman', Times, serif;
-       font-size: 25px;
+       font: size 20;
        margin: 25px;
        padding-top: 20px;
 
@@ -41,7 +41,7 @@
         text-align: center;
         color: Grey;
         font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: 25px;
+        font: size 20;
         margin: 25px;
    }
    
@@ -52,7 +52,7 @@
        text-align: center;
        color: grey;
        font-family: Georgia, 'Times New Roman', Times, serif;
-       font-size:24px;
+       font: size 20;
        margin:25px;
    }
     /* * Regular font color (used for paragraphs and all text besides the headings): `#777777`
@@ -191,11 +191,56 @@
 
 /* 
 * Add media for 980px: COMPLETED
-* Change containers width to 600px when the browser minimized to 980px: COMPLETED  */
+* Change containers width to 600px when the browser minimized to 980px: COMPLETED 
+* Because h1 will collide with the nav bar, I moved the h1 over: */
 @media screen and (max-width: 980px) {
     
     /* The container's width will be 600px */
     .container {
         width: 600px;
     }
+    
+    /* Changed h1 position so it doesn't collide with navbar */
+    h1 {
+        margin: 0px 160px;
+    }
+}
+
+
+/* I added this media because the nav bar collides with h1 again. */
+@media screen and (max-width: 830px) {
+    
+    /* 
+    * The container's width will be 600px: COMPLETED 
+     */
+    .container {
+        width: 600px;
+    }
+
+    /* Flush H1 Tag to the left of Screen:  */
+    h1 {
+        margin: 0px;
+    }
+}
+
+
+/* 
+* Add media for 768px: COMPLETED
+* Change containers width to 600px when the browser minimized to 980px: COMPLETED  
+*/
+
+@media screen and (max-width: 768px) {
+    
+    /* 
+    * The container's width will be 600px: COMPLETED 
+     */
+    .container {
+        width: 600px;
+    }
+
+    /* Flush H1 Tag to the left of Screen:  */
+    h1 {
+        margin: 0px;
+    }
+}
 
