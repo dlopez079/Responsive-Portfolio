@@ -61,6 +61,7 @@
         color: #4aaaa5;
         font-size: 30px;
         font-family: Georgia, 'Times New Roman', Times, serif;
+        padding-left: 36px;
     }
    
 
@@ -95,7 +96,6 @@
        width: 960px;
        margin: 0 auto;
         padding-top: 34px;
-        padding-left: 38px;
         margin-top: 50px;
    }
 
@@ -200,7 +200,6 @@
     width: 50%;
     height: 500px;
     float: left;
-    align-content: center;
 }
 
 /* 
