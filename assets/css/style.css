@@ -309,5 +309,14 @@ img {
         position: relative;
     }
 
-    
+    .container {
+        border: none;
+        width: none;
+    }
+
+    .col {
+        width:100%;
+        height:100%;
+        float: none;
+    }
 }
