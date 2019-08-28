@@ -319,4 +319,8 @@ img {
         height:100%;
         float: none;
     }
+
+    .row {
+        height:none;
+    }
 }
